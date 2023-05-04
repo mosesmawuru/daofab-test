@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-jost: Jost;
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-18xl-3: 37.3px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkslategray: #3a3a3a;
+  --color-whitesmoke: #f8f8f8;
+  --color-gainsboro: #e6e6e6;
+  --color-black: #000;
+  --color-yellow: #cdda00;
+
+  /* Gaps */
+  --gap-371xl: 390px;
+  --gap-29xl: 48px;
+
+  /* Paddings */
+  --padding-16xl: 35px;
+  --padding-3xs: 10px;
+  --padding-18xl: 37px;
+  --padding-110xl-7: 129.7px;
+  --padding-6xs: 7px;
+
+  /* border radiuses */
+  --br-5xs: 8px;
+  --br-10xs: 3px;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 600px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+table th,
+table td {
+  padding: 12px 15px;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+h1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+h1 > span:not(:first-child) {
+  cursor: pointer;
+  font-size: 16px;
+  color: blue;
+}

@@ -1,0 +1,20 @@
+{
+  "data": [
+    { "id": 1, "parentId": 1, "paidAmount": 10 },
+    { "id": 2, "parentId": 1, "paidAmount": 50 },
+    { "id": 3, "parentId": 1, "paidAmount": 40 },
+    { "id": 4, "parentId": 2, "paidAmount": 100 },
+    { "id": 5, "parentId": 3, "paidAmount": 10 },
+    { "id": 6, "parentId": 3, "paidAmount": 150 },
+    { "id": 7, "parentId": 3, "paidAmount": 100 },
+    { "id": 8, "parentId": 4, "paidAmount": 300 },
+    { "id": 9, "parentId": 4, "paidAmount": 300 },
+    { "id": 10, "parentId": 4, "paidAmount": 300 },
+    { "id": 11, "parentId": 5, "paidAmount": 10 },
+    { "id": 12, "parentId": 5, "paidAmount": 10 },
+    { "id": 13, "parentId": 5, "paidAmount": 10 },
+    { "id": 14, "parentId": 5, "paidAmount": 10 },
+    { "id": 15, "parentId": 5, "paidAmount": 10 },
+    { "id": 16, "parentId": 6, "paidAmount": 125 }
+  ]
+}
